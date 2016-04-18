@@ -1,0 +1,11 @@
+
+# instasll and configure infinality for better font rendering in linux
+sudo add-apt-repository ppa:no1wantdthisname/ppa
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install fontconfig-infinality
+
+# install OpenJDK7 with font fixes in Ubuntu
+sudo add-apt-repository ppa:no1wantdthisname/openjdk-fontfix
+sudo apt-get update
+sudo apt-get upgrade
