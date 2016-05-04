@@ -1,0 +1,11 @@
+Simply change this values using the gsettings witch will disable the constant indexing of Tracker:
+
+
+gsettings set org.freedesktop.Tracker.Miner.Files crawling-interval -2
+gsettings set org.freedesktop.Tracker.Miner.Files enable-monitors false
+
+The values could be changed using dconf-editor by navigating through org > freedesktop > Tracker > Miner > Files:
+
+After this changes, it is highly recommended to cleanup the database to reclaim some lost space on the disk:
+
+tracker-control -r
