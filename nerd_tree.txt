@@ -1,0 +1,13 @@
+# show nerdtree across multiple tabs
+:NERDTreeMirror
+
+# show default mapping
+:NERDTreeMapping
+
+t :Open Selected file in new tab
+i :Open selected file in horizontal split
+s :Open selected file in vertical split
+I :Toggle hidden files
+m :Show NERDTree menu
+R :refresh the tree
+? :show nerdtree quick help
