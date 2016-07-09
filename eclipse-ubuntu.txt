@@ -1,0 +1,2 @@
+use oracle java only
+change eclipse.ini java directory
